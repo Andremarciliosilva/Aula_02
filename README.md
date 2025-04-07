@@ -1,6 +1,7 @@
 ### Aula_02
 
 Este repósitório tem por finalidade publicar os exercícios resolvidos na Aula 02, abordando os conceitos da utilização de variáveis e condicionais.
+Para executar esser exercíkcios na sua máquina, o único requisito é o python instalado (Versão utilizada 3.11.5)
 
 Organização dos exercícios:
 
