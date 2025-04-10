@@ -6,7 +6,6 @@ garantir que a entrada seja numérica, tratando qualquer ValueError.
 Imprima o resultado em Fahrenheit ou uma mensagem de erro se a entrada não for válida.
 '''
 
-
 print("Digite uma temperatura em Celsius pra converter pra Farenheit")
 try:
     temp_celsius = float(input("Digite a temperatura em Celsius:"))
@@ -15,8 +14,6 @@ try:
 
 except ValueError:
     print('Por favor, digite apenas números')
-
-
 
 # 22. Verificador de Palíndromo
 '''Crie um programa que verifica se uma palavra ou frase é um palíndromo 
@@ -103,7 +100,6 @@ if entrada % 2 == 0:
 else:
     print('Este número é ímpar')
 
-
 # 25. Conversão de Tipo com Validação
 '''
 Crie um script que solicite ao usuário uma lista de números separados por vírgula. 
@@ -119,7 +115,6 @@ não for um inteiro, imprima uma mensagem de erro.
 Se a conversão for bem-sucedida 
 para todos os elementos, imprima a lista de inteiros.
 '''
-
 entrada = input('Digite uma lista(ex. 1,34,67,89):')
 lista = list(entrada.split(','))
 lista_int = []
